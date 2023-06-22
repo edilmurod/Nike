@@ -1,0 +1,126 @@
+@media(max-width:1130px) {
+    .catalog__box {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .intro {
+        height: 500px;
+    }
+}
+
+@media(max-width:850px) {
+    .nav__list {
+        display: none;
+    }
+    .nav__menu {
+        display: block;
+    }
+    .nav {
+        padding: 15px 0;
+    }
+    .intro {
+        height: 450px;
+    }
+    .footer__box {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .footer {
+        padding: 30px 0;
+    }
+}
+@media(max-width:600px) {
+    .intro__title {
+        font-size: 45px;
+        margin-bottom: 10px;
+        line-height: 100%;
+    }
+    .intro__text {
+        font-size: 16px;
+    }
+    .catalog__box,
+    .catalog__right {
+        gap: 15px;
+    }
+    .catalog__box {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .catalog__left img {
+        width: 100%;
+    }
+    .catalog__title {
+        margin: 10px 0;
+        font-size: 18px;
+        line-height: 100%;
+    }
+    .catalog__text {
+        font-size: 15px;
+        line-height: 120%;
+    }
+    .catalog__right {
+        justify-content: center;
+    }
+    .catalog__card {
+        width: 230px;
+    }
+    .catalaog__card-img {
+        width: 70px;
+        height: 70px;
+    }
+    .catalaog__card-img img {
+        width: 55px
+    }
+    .catalog__card-title {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+    .catalog__card-text {
+        font-size: 15px;
+    }
+    .nav__logo img {
+        width: 85px;
+    }
+    .form {
+        width: 300px;
+    }
+    .footer__input,
+    .footer__comment,
+    .footer__btn {
+        padding: 7px;
+        font-size: 15px;
+    }
+    .intro{
+        height: 400px;
+    }
+}
+@media(max-width:480px) {
+    .intro{
+        height: 350px;
+    }
+    .catalog__left{
+        padding: 10px;
+    }
+    .catalog__title{
+        font-size: 16px;
+    }
+    .catalog__text{
+        font-size: 13px;
+    }
+    .form{
+        width: 270px;
+    }
+    .footer__box{
+        gap: 10px;
+    }
+    .catalog__box{
+        transform: translateY(-15px);
+    }
+    .footer{
+        padding: 15px 0;
+    }
+    .nav{
+        padding: 10px 0;
+    }
+}
